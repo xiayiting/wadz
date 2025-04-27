@@ -1,0 +1,374 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+h1,h2,h3,h4,h5,h6{
+	font-family: '微软雅黑', sans-serif;
+}
+
+section{
+	padding: 60px,0;
+	overflow: hidden;
+}
+/*navbar section*/
+#navigation{
+	top: 20px;
+	padding: 0;
+	transition: 0.5s all;
+}
+
+#navigation .logo{
+	padding: 17px 30px;
+	background-color:rgba(182,119,193,1.00);	
+}
+
+#navigation .logo a{
+	font-size: 26px;
+	padding: 0;
+	line-height: 1;
+	font-weight: 700;
+	color: #fff;
+	font-family: '微软雅黑';
+}
+
+#navigation #navbarNav{
+	background-color: #fff;
+}
+
+#navigation #navbarNav a{
+	display: block;
+	position: relative;
+	color: #36343a;
+	padding: 10px 15px;
+	font-size: 15px;
+	font-weight: 600;
+	transition: 0.3s all;
+} 
+
+#navigation #navbarNav a:hover{
+	color:rgba(182,119,193,1.00);
+	text-decoration: none;
+
+}
+
+#navigation #get_started a{
+     border-radius: 50px;
+     background-color:rgba(182,119,193,0.7);
+     color: #fff;
+     padding: 10px 25px;
+     margin: 0 15px;
+}
+
+#navigation #get_started a:hover{
+	color: #fff;
+	background-color:rgba(182,119,193,1.00) ;
+}
+
+#navigation.nav-scroll{
+	background-color: #fff;
+	top: 0;
+	box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+}
+/***navbar section end***/
+/* Banner Section CSS */
+
+#hero{
+	width:100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../image/banner_hero.jfif);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	
+}
+
+#hero .container{
+	padding-top: 80px;
+}
+#hero img{
+	margin: 10px;
+	border-radius: 10px 10px 10px 10px;
+}
+#hero h1{
+	font-size: 55px;
+	font-weight: 700;
+	line-height: 50px;
+	color:#fff;
+	margin: 0 0 10 0;
+	
+}
+
+#hero .btn_get_started{
+	font-family: 'Poppins',sans-serif;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 14px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 8px 28px;
+	border-radius: 50px;
+	margin: 10px;
+	border: 2px solid #fff;
+	background-color: transparent;
+	color: #fff;
+	transition: 0.6s all;
+}
+
+#hero .btn_get_started:hover{
+	background-color: lightpink;
+	border: 2px solid pink;
+}
+
+/*** clients section ***/
+.clients{
+	background-color: #f6f6f7;
+	text-align: center;
+	padding: 5px 0;
+	
+}
+
+.clients img{
+	width: 40%;
+	display: inline-block;
+	padding: 15px 0;
+	margin: 0 auto;
+	transition: 0.4s ease-in-out;
+	
+}
+
+.clients img:hover{
+	filter: none;
+	transform: scale(1.3);
+}
+/*** clients section end***/
+
+/***about section***/
+.about .content h2{
+	font-weight: 700;
+	font-size: 48px;
+	line-height: 60px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.about .content h3{
+	font-weight: 500;
+	line-height: 35px;
+	font-size: 24px;
+	
+}
+
+.about .content img{
+	width: 60%;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.about .content ul{
+	list-style-type:circle;
+	padding: 0;
+}
+
+.about .content ul li{
+	
+	padding: 10px 0 0 20px;
+	display: flex;
+}
+
+.about .content ul li p{
+	margin-bottom: 0;
+}
+
+.about .content ul li i{
+	font-size: 15px;
+	color:rgba(126,31,162,1.00);
+	margin-right: 7px;
+	
+}
+/***about section end ***/
+/***counter section  ***/
+.counts {
+	background-color:rgba(182,119,193,1.00);
+	padding: 40px 0 20px 0;
+	color: #fff;
+	
+}
+
+.counts .counters span{
+	font-size: 36px;
+	font-weight: 700;
+	display:block;
+	
+}
+
+.counts .counters p{
+	padding: 0;
+	margin: 0 0 20px 0;
+	font-family: '微软雅黑'，sans-serif;
+	font-size: 15px;
+	font-weight: 500;
+	
+}
+/***counter section end ***/
+/***Why us section  ***/
+.Why_us .container{
+	padding: 40px 0 20px 0;
+}
+.Why_us .content{
+	padding: 50px;
+    height: 300px;
+	background-color:rgba(182,119,193,1.00);
+	color: #FFFFFF;
+	border-radius: 6px;
+}
+
+.Why_us .content h3{
+	font-size: 34px;
+	font-weight: 700;
+	margin-bottom: 30px;
+
+}
+
+.Why_us .content ul li{
+	margin-bottom: 30px;
+
+}
+.Why_us .content .more_btn{
+	display: inline-block;
+	background-color: rgba(255,255,255,0.1);
+	padding: 6px 30px 8px 30px;
+    color: #fff;
+	border-radius: 50px;
+	transition: 0.6s ease-in-out;
+}
+
+.Why_us .content .more_btn:hover{
+	color: rgba(182,119,193,1.00);
+	background-color: #fff;
+}
+
+.Why_us .icon_boxes .icon_box{
+	text-align: center;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 40px 30px;
+	width: 100%;
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+	transition: 0.3s ease-in-out;
+}
+
+.Why_us .icon_boxes .icon_box:hover{
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.5);
+}
+
+.Why_us .icon_boxes .icon_box i{
+	font-size: 40px;
+	color:rgba(182,119,193,1.00) ;
+	margin-bottom: 30px;
+}
+
+.Why_us .icon_boxes .icon_box h4{
+	font-size: 20px;
+	font-weight: 700;
+	margin: 0 0 30 0;
+}
+
+.Why_us .icon_boxes .icon_box p{
+	font-size: 15px;
+	color: #6b6969;
+}
+
+/***Why us section end ***/
+/***Portfolio section ***/
+.portfolio .portfolio_item{
+	margin-bottom: 30px;
+}
+
+.portfolio_item .portfolio_wrap{
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+	background-color: rgba(54,52,58,0.6);
+	transition: 0.3s ease-in-out;
+}
+
+.portfolio_item .portfolio_wrap::before{
+	content: "";
+	background-color:rgba(54,52,58,0.6);
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index:2;
+	opacity: 0;
+	transition: 0.3s ease-in-out;
+}
+.portfolio_item .portfolio_wrap img{
+	width: 350px;
+	height: 350px;
+	border-radius: 10px;
+	transition: 0.3s ease-in-out;
+}
+.portfolio_item .portfolio_wrap:hover img{
+	transform:scale(1.2);
+}
+
+
+/***Portfolio section end***/
+/***Contact section***/
+.contact .info{
+	padding: 30px;
+	width: 100%;
+	background-color: #fff;
+	box-shadow: 0px 2px 15px rgba(0,0,0,0.1);
+	display: flex;
+}
+
+.contact .info_inner{
+	padding-left: 15px;
+
+}
+
+.contact .info i{
+	font-size: 20px;
+	color:#fff;
+	width: 44px;
+	height: 44px;
+	background-color:rgba(182,119,193,1.00);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	transition: 0.4s ease-in-out;
+
+}
+
+.contact .info_inner h4{
+	font-size: 22px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color:#36343a;
+
+}
+
+.contact .info_inner p{
+	margin-bottom: 0;
+	font-size: 14px;
+	color:#686470;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/***Contact section end***/
+
+
